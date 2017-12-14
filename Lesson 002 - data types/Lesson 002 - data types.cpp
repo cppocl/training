@@ -99,7 +99,7 @@ int main(int argc, char** argv)
     // CHAR_BIT is defined as the number of bits in a char, which is commonly 8 bits.
     std::size_t size_of_char_in_bits = sizeof(char) * CHAR_BIT;
 
-    // Remove compiler warnings for unused sample variables.
+    // Remove compiler warnings for unused sample variables by using the values for output.
     std::cout << "state=" << state << std::endl;
     std::cout << "a_letter=" << a_letter << std::endl;
     std::cout << "a_wide_letter=" << a_wide_letter << std::endl;
