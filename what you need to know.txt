@@ -1,0 +1,2 @@
+If you have some basic knowledge of programming in any procedural or object oriented language, then this training will be suitable for you.
+You will need to understand what a function does and some basic ideas about variables.
