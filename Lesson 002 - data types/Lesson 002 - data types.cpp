@@ -84,6 +84,8 @@ int main(int argc, char** argv)
 
     // These types specify the number of bits stored within the type name,
     // and are signed, unless the typename begins with the letter u (for unsigned).
+    // Extra C++ types are within the std namespace, and accessing these types is done
+    // by placing std:: before the use of the type.  Namespaces are explained later.
     std::int8_t  n  = -128; // signed 8-bit values.
     std::uint8_t o  =  255; // unsigned 8-bit values.
     std::int16_t  p = -32768; // signed 16-bit values.
