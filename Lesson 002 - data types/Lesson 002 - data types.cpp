@@ -23,6 +23,8 @@ int main()
 {
     //
     // The following lines of code show primitive data types built into the C++ language.
+    // Data types describe the properties of a variable, including the amount of memory used
+    // and what type of information is stored, i.e. integer, floating point number, etc.
     //
 
     // Boolean values are built in and can have values true or false.
