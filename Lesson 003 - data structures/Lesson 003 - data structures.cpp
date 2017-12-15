@@ -43,12 +43,8 @@ struct MyStruct2
     char d;
 };
 
-int main(int argc, char** argv)
+int main()
 {
-    // Prevent the compiler warning about argc and argv not being used.
-    (void)argc;
-    (void)argv;
-
     // Set values for the structure variables.
     MyStruct1 st1;
     st1.i = 1;

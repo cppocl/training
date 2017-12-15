@@ -19,12 +19,8 @@ limitations under the License.
 #include <cstddef> // Required for std::size_t.
 #include <iostream>
 
-int main(int argc, char** argv)
+int main()
 {
-    // Prevent the compiler warning about argc and argv not being used.
-    (void)argc;
-    (void)argv;
-
     //
     // The following lines of code show primitive data types built into the C++ language.
     //
