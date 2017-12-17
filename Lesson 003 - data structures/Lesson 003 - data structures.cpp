@@ -51,7 +51,7 @@ int main()
     /*
         Notice the use of . before i within st.i.
         THere are many operators in C++, such as =, +, etc. and this one
-        is known as a member selection or structure dereference operator.
+        is known as a member selection or structure reference operator.
         The member selection operator gives access to the variables within the structure.
     */
     st1.i = 1;
