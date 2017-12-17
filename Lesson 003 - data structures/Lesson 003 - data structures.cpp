@@ -47,6 +47,13 @@ int main()
 {
     // Set values for the structure variables.
     MyStruct1 st1;
+
+    /*
+        Notice the use of . before i within st.i.
+        THere are many operators in C++, such as =, +, etc. and this one
+        is known as a member selection or structure dereference operator.
+        The member selection operator gives access to the variables within the structure.
+    */
     st1.i = 1;
     st1.c = 'A';
     st1.c = 'B';
