@@ -59,11 +59,11 @@ int main()
     st1.c = 'B';
 
     // Set the values at time of constructing the MyStruct2 variable.
-    MyStruct2 st2 = { 'A', 1, 2.2 };
+    MyStruct2 st2 = { 'A', 1, 'B' };
 
     // Output the different sizes of the two data structures.
-    std::cout << "size of MyStruct1=" << sizeof(MyStruct1) << std::endl;
-    std::cout << "size of MyStruct2=" << sizeof(MyStruct2) << std::endl;
+    std::cout << "size of MyStruct1=" << sizeof(st1) << std::endl;
+    std::cout << "size of MyStruct2=" << sizeof(st2) << std::endl;
 
     return 0;
 }
