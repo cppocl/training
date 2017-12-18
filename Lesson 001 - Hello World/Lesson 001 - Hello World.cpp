@@ -31,6 +31,25 @@ limitations under the License.
     command prompt, terminal or shell (via the int return).
 */
 
+/*
+C++ comprises of at least once source code file, usually with the file extension of .cpp,
+which is the implementation file for private data, functions, etc.
+
+C++ also uses header files, usually with a .hpp file extension for providing definitions of
+functions, shared variables, etc.
+With some exceptions, header files don't usually implement the code, which will be covered
+in later lessons.
+
+For most of the early lessons, only a .cpp file is provided for the example code,
+and more .cpp or .hpp files will be introduced in later lessons.
+
+This training uses Visual Studio 2017 Community Edition solution/projects files
+as the IDE and compiler is free for personal use.
+
+If C++ is being used on non-Windows platforms, then it's possible to use gcc and make,
+but this training material does not cover these topics.
+*/
+
 int main(int argc, char** argv)
 {
     // Prevent the compiler warning about argc and argv not being used.
