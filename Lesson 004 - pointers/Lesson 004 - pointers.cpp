@@ -27,7 +27,6 @@ struct MyStruct
 
 int main()
 {
-    // Set values for the structure and int variables.
     int i = 55;
 
     /*
