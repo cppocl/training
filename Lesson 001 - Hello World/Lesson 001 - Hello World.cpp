@@ -50,12 +50,8 @@ If C++ is being used on non-Windows platforms, then it's possible to use gcc and
 but this training material does not cover these topics.
 */
 
-int main(int argc, char** argv)
+int main()
 {
-    // Prevent the compiler warning about argc and argv not being used.
-    (void)argc;
-    (void)argv;
-
     // This line outputs "Hello World" to the command prompt, terminal or shell.
     std::cout << "Hello World" << std::endl;
 
