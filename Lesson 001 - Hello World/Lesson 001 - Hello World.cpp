@@ -13,14 +13,15 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 */
-
-#include <iostream>
+// Put license info to LICENCE.MD for brevity of the file contents.
 
 /*
     This is a typical example of a basic C++ program.
     
     The program can be compiled to an executable that can be run
     within a command prompt, terminal or shell.
+
+    Add some simple one liners on how to run the code.
 
     When the program is run, it will output the line "Hello World" into
     the command prompt, terminal or shell.
@@ -46,20 +47,39 @@ and more .cpp or .hpp files will be introduced in later lessons.
 This training uses Visual Studio 2017 Community Edition solution/projects files
 as the IDE and compiler is free for personal use.
 
+support for a crossplatform build system like CMake would be nice but maybe it has too big of a learning curve.
+consider putting in a makefile?
+One of the reasons I think why people can't get into learning cpp is poor tooling.
+
 If C++ is being used on non-Windows platforms, then it's possible to use gcc and make,
 but this training material does not cover these topics.
 */
 
+// put this here to be explicit about it being part of the program.
+// mention that this is a standard library just like Java's ArrayList.
+// mention what this library aims to do.
+// this gives the idea that std is actually a big deal and should be mentioned in separate tutorial.
+#include <iostream>
+
 int main(int argc, char** argv)
 {
     // Prevent the compiler warning about argc and argv not being used.
-    (void)argc;
-    (void)argv;
+    (void)argc; // first thing to do in our program is to make the compiler shut up. Yuck..
+    (void)argv; // maybe mention that these will be removed by the optimizer?
+    // This also gives the idea of mentioning the compilation and linking process a little.
 
     // This line outputs "Hello World" to the command prompt, terminal or shell.
     std::cout << "Hello World" << std::endl;
+    // Maybe we can mention in couple of lines on how does this even work?
+    // << is a stream operator, we will get to operator overloading during classes.
+    // std:: is the namespace that the cout function resides in. See namespaces.
+    // cout function returns an ostream which we can use the opertor function to write in.
+    // ostream then is automatically flushed to stdout
+    // a little bit about what stdout is
 
     // When function main returns 0, this indicates no error conditions.
     // Any non-zero return would indicate an error code.
     return 0;
+    // Errors outputted by this program is actually received/consumed by the terminal program that runs this.
+    // It is customary for operating systems to interpret 0 output as NOERROR due to historical reasons. (first UNIX systems)
 }
