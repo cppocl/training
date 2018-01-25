@@ -8,3 +8,7 @@ THe source code can be obtained by using the following command:
 git clone https://git-scm.com/
 
 remember to run this command from the folder where you wish to put the files and folders.
+
+The training is written for Visual Studio 2015, although there is some support for Visual Studio 2017.
+Currently I am manually upgrading the .vcxproj files to VS2017 as I can't install VS2017 without breaking my VS2015 install.
+The problem is related to macro explorer failing to work with VS2015 and VS2017 both installed.
