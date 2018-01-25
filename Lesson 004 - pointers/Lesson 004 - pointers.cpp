@@ -27,6 +27,11 @@ struct MyStruct
 
 int main()
 {
+    /*
+        The in variable i requires 32 bits of memory on a Windows platform.
+        The program will reserved so memory, which could be anywhere in the
+        available memory.
+    */
     int i = 55;
 
     /*
