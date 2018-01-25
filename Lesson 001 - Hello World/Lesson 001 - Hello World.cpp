@@ -52,10 +52,16 @@ but this training material does not cover these topics.
 
 int main()
 {
-    // This line outputs "Hello World" to the command prompt, terminal or shell.
+    /*
+        This line outputs "Hello World" to the command prompt, terminal or shell.
+        Don't concern yourself for now about how this works,
+        it will be covered in later lessons.
+    */
     std::cout << "Hello World" << std::endl;
 
-    // When function main returns 0, this indicates no error conditions.
-    // Any non-zero return would indicate an error code.
+    /*
+        When function main returns 0, this indicates no error conditions.
+        Any non-zero return would indicate an error code.
+    */
     return 0;
 }
