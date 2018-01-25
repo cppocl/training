@@ -31,6 +31,15 @@ int main()
         The in variable i requires 32 bits of memory on a Windows platform.
         The program will reserved so memory, which could be anywhere in the
         available memory.
+
+        If we assume you have a PC with 2GB of memory,
+        and the next available location is at 1GB, then the image file
+        located in the same folder as this source code file can help visualise
+        how the memory is stored.
+        Each block represents a single byte in memory in the image file.
+
+        Because the int is a 32-bit value, you can see how the value 55 would
+        be stored in the memory looking at the image file "variable in memory example.png".
     */
     int i = 55;
 
