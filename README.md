@@ -4,7 +4,7 @@ C++ training material covering: data types, pointers, references, operators and 
 Downloading the git tools can be done from here:
 https://git-scm.com/
 
-THe source code can be obtained by using the following command:
+THe source code can be obtained by using the following command at a command prompt:  
 git clone https://github.com/cppocl/training
 
 remember to run this command from the folder where you wish to put the files and folders.
