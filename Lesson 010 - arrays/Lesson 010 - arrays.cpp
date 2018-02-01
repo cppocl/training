@@ -33,7 +33,7 @@ int main()
     ages[0] = 21;
     ages[1] = 35;
     ages[2] = 70;
-    ages[3] = 6;
+    ages[3] = 16;
 
     int total_age = 0;
     for (int pos = 0; pos < 4; ++pos)
@@ -45,7 +45,7 @@ int main()
 
     // It's also possible to have arrays of other types, not just numeric types,
     // and also set the values at the time of defining the array.
-    std::string names[4] = {"James", "Peter", "Sarah", "Pauline"};
+    std::string names[4] = {"James", "Peter", "Sarah", "Michelle"};
 
     // This is an example of how you can loop through an array,
     // handling each value with a variable indexing the position in the array.
@@ -62,13 +62,24 @@ int main()
     ages[0] = 50;
     names[0] = "David";
 
-    // Output the names and ages to the screen.
+    // It's also possible to have multi-dimension arrays.
+    int height_cm_and_weight_kg[4][2] = // 4 rows and 2 columns.
+    {
+        {178, 80},
+        {182, 90},
+        {165, 65},
+        {152, 48}
+    };
+
+    // Output the names and ages to the screen, with height and weight to the screen.
     for (int pos = 0; pos < 4; ++pos)
     {
         std::cout << names[pos];
         std::cout << " is ";
-        std::cout << ages[pos];
-        std::cout << " years old " << std::endl;
+        std::cout << ages[pos] << " years old, ";
+        std::cout << height_cm_and_weight_kg[pos][0] << "cm tall, ";
+        std::cout << "weighing " << height_cm_and_weight_kg[pos][1] << "kg";
+        std::cout << std::endl;
     }
 
     return 0;
