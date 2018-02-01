@@ -29,7 +29,11 @@ limitations under the License.
 
 /*
     Simple example of how to define a function that works with different
-    data types and different numbert of arguments.
+    data types and different numbers of arguments.
+    The first two examples return the value as a returning type
+    (the returning type is before the function name).
+    Within sample_functions.cpp file the keyword return is used to set the returning value
+    within the implementation of these first two functions.
 */
 long Square(long value);
 float Square(float value);
