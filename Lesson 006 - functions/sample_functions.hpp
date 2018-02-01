@@ -18,6 +18,16 @@ limitations under the License.
 #define HEADER_GUARD
 
 /*
+    The header file is used to define the function name, parameters and return
+    type.
+    The implementation of these functions can be found in sample_functions.cpp.
+
+    Defining the functions in a header file allows the header file to be included
+    in multiple .cpp files, which allows these functions to be used, as the code
+    in the .cpp files understands the function names, parameters and return types.
+*/
+
+/*
     Simple example of how to define a function that works with different
     data types and different numbert of arguments.
 */
@@ -26,9 +36,11 @@ float Square(float value);
 
 /*
     When the return type is specified as a void type, the function does not
-    return the value as a returning function, but instead as another argument
-    of the function.
-    The reference variable ret will store the sqaured value.
+    return the value.
+    This example of the Square function returns the values as parameters of the function,
+    instead of the examples above that returned the values using the return keyword.
+
+    The reference variable ret in the Square functions below will store the squared value.
 */
 void Square(long value, long& ret);
 void Square(float value, float& ret);
