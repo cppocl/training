@@ -98,7 +98,9 @@ int main()
     // The type returned by sizeof is a std::size_t.
     std::size_t size_of_char_in_bits = sizeof(char) * CHAR_BIT;
 
-    // Remove compiler warnings for unused sample variables by using the values for output.
+    // Remove compiler warnings for unused sample variables outputting the values to screen.
+    // Notice the use of (int) is to solve a problem with std::cout not handling those types.
+    // The use of (int) is explained in a later lesson regarding type casting.
     std::cout << "state=" << state << std::endl;
     std::cout << "a_letter=" << a_letter << std::endl;
     std::cout << "a_wide_letter=" << a_wide_letter << std::endl;
