@@ -95,6 +95,7 @@ int main()
 
     // sizeof always returns the size of a char, signed char or unsigned char as 1.
     // CHAR_BIT is defined as the number of bits in a char, which is commonly 8 bits.
+    // The type returned by sizeof is a std::size_t.
     std::size_t size_of_char_in_bits = sizeof(char) * CHAR_BIT;
 
     // Remove compiler warnings for unused sample variables by using the values for output.
