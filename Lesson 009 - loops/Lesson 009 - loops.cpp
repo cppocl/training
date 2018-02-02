@@ -53,6 +53,18 @@ int main()
     // Output the number of found upper case characters to the screen, which will be 2.
     std::cout << "Number of upper case characters: " << uppercase_count << std::endl;
 
+    // The for loop can also be done a different way,
+    // by assigning a value for each element in the array or string.
+    // Here the variable c is set for every position in the string.
+    uppercase_count = 0;
+    for (char c : message)
+    {
+        if (isupper(c) != 0)
+            ++uppercase_count;
+    }
+
+    // Output the number of found upper case characters to the screen, which will be 2.
+    std::cout << "Number of upper case characters: " << uppercase_count << std::endl;
 
     /*
         Example of a while loop, which keeps looping until a non-alphabetic character
