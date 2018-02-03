@@ -60,7 +60,7 @@ int main()
     const std::string& name_a = names[0];
     std::string const& name_b = names[0];
 
-    // Output the two constant references ro the screen, so it can be seen they are the same.
+    // Output the two constant references to the screen, so it can be seen they are the same.
     std::cout << "These refer to the same name: " << name_a << " and " << name_b << std::endl;
 
     return 0;
