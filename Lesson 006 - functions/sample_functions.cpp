@@ -42,7 +42,13 @@ float Square(float value)
 
 void Square(long value, long& ret)
 {
-    // The sqared result is returned as an argument of the function.
+    // The squared result is returned as an argument of the function.
+    // Just like the previous references lesson, you can see that
+    //
+    // any variables passed into this function from outside the function
+    // will be updated after this function completes.
+    // This is because the reference variable ret is looking at the same
+    // variable in memory as the variable passed into this function.
     ret = value * value;
 }
 
