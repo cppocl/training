@@ -56,6 +56,18 @@ int main()
         This line outputs "Hello World" to the command prompt, terminal or shell.
         Don't concern yourself for now about how this works,
         it will be covered in later lessons.
+
+        It's important to appreciate that programming languages read tokens,
+        then identify the purpose of the tokens, which might be a keyword, data type,
+        variable name, etc.
+        So these are treated as individual tokens:
+            std   ::   cout   <<   "Hello World"   endl
+
+        Compilers or interpreters understand tokens and their meaning,
+        and things like white space are ignored.
+        (although some languages like Python use white space to decide how the code behaves).
+
+        Understanding the existence of tokens will be useful for future lessons.
     */
     std::cout << "Hello World" << std::endl;
 
