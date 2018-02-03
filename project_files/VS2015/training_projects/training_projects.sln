@@ -35,6 +35,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson 015 - constants and 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson 016 - function main", "Lesson 016 - function main\Lesson 016 - function main.vcxproj", "{5D4785B1-BB2E-4634-AFBB-08FCACCCC592}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson 017 - typedef", "Lesson 017 - typedef\Lesson 017 - typedef.vcxproj", "{6828FFD2-B3A2-4AFB-B979-4247A37E1511}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -171,6 +173,14 @@ Global
 		{5D4785B1-BB2E-4634-AFBB-08FCACCCC592}.Release|x64.Build.0 = Release|x64
 		{5D4785B1-BB2E-4634-AFBB-08FCACCCC592}.Release|x86.ActiveCfg = Release|Win32
 		{5D4785B1-BB2E-4634-AFBB-08FCACCCC592}.Release|x86.Build.0 = Release|Win32
+		{6828FFD2-B3A2-4AFB-B979-4247A37E1511}.Debug|x64.ActiveCfg = Debug|x64
+		{6828FFD2-B3A2-4AFB-B979-4247A37E1511}.Debug|x64.Build.0 = Debug|x64
+		{6828FFD2-B3A2-4AFB-B979-4247A37E1511}.Debug|x86.ActiveCfg = Debug|Win32
+		{6828FFD2-B3A2-4AFB-B979-4247A37E1511}.Debug|x86.Build.0 = Debug|Win32
+		{6828FFD2-B3A2-4AFB-B979-4247A37E1511}.Release|x64.ActiveCfg = Release|x64
+		{6828FFD2-B3A2-4AFB-B979-4247A37E1511}.Release|x64.Build.0 = Release|x64
+		{6828FFD2-B3A2-4AFB-B979-4247A37E1511}.Release|x86.ActiveCfg = Release|Win32
+		{6828FFD2-B3A2-4AFB-B979-4247A37E1511}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
