@@ -31,6 +31,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson 013 - constant data"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson 014 - constants and references", "Lesson 014 - constants and references\Lesson 014 - constants and references.vcxproj", "{CC6D533D-D346-406B-BC3D-8FF84846D122}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson 015 - constants and pointers", "Lesson 015 - constants and pointers\Lesson 015 - constants and pointers.vcxproj", "{197E492E-3DB2-4316-B39A-36E3B5E4BB19}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -151,6 +153,14 @@ Global
 		{CC6D533D-D346-406B-BC3D-8FF84846D122}.Release|x64.Build.0 = Release|x64
 		{CC6D533D-D346-406B-BC3D-8FF84846D122}.Release|x86.ActiveCfg = Release|Win32
 		{CC6D533D-D346-406B-BC3D-8FF84846D122}.Release|x86.Build.0 = Release|Win32
+		{197E492E-3DB2-4316-B39A-36E3B5E4BB19}.Debug|x64.ActiveCfg = Debug|x64
+		{197E492E-3DB2-4316-B39A-36E3B5E4BB19}.Debug|x64.Build.0 = Debug|x64
+		{197E492E-3DB2-4316-B39A-36E3B5E4BB19}.Debug|x86.ActiveCfg = Debug|Win32
+		{197E492E-3DB2-4316-B39A-36E3B5E4BB19}.Debug|x86.Build.0 = Debug|Win32
+		{197E492E-3DB2-4316-B39A-36E3B5E4BB19}.Release|x64.ActiveCfg = Release|x64
+		{197E492E-3DB2-4316-B39A-36E3B5E4BB19}.Release|x64.Build.0 = Release|x64
+		{197E492E-3DB2-4316-B39A-36E3B5E4BB19}.Release|x86.ActiveCfg = Release|Win32
+		{197E492E-3DB2-4316-B39A-36E3B5E4BB19}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
