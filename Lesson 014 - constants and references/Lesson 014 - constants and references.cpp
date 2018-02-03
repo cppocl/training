@@ -57,11 +57,11 @@ int main()
     */
 
     // These two lines have an identical meaning:
-    const std::string& name0_a = names[0];
-    std::string const& name0_b = names[0];
+    const std::string& name_a = names[0];
+    std::string const& name_b = names[0];
 
     // Output the two constant references ro the screen, so it can be seen they are the same.
-    std::cout << "These refer to the same name: " << name0_a << " and " << name0_b << std::endl;
+    std::cout << "These refer to the same name: " << name_a << " and " << name_b << std::endl;
 
     return 0;
 }
