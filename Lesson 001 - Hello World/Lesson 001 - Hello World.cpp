@@ -60,8 +60,8 @@ int main()
         It's important to appreciate that programming languages read tokens,
         then identify the purpose of the tokens, which might be a keyword, data type,
         variable name, etc.
-        So these are treated as individual tokens:
-            std   ::   cout   <<   "Hello World"   endl
+        So from the following line of code, these are treated as individual tokens:
+            std   ::   cout   <<   "Hello World"   <<   std   ::   endl   ;
 
         Compilers or interpreters understand tokens and their meaning,
         and things like white space are ignored.
