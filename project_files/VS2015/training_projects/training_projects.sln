@@ -37,6 +37,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson 016 - function main"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson 017 - typedef", "Lesson 017 - typedef\Lesson 017 - typedef.vcxproj", "{6828FFD2-B3A2-4AFB-B979-4247A37E1511}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson 018 - union", "Lesson 018 - union\Lesson 018 - union.vcxproj", "{5EBEACBF-94FB-4DA6-9F4D-6A62F2D93A8A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson 019 - signed and unsigned integers", "Lesson 019 - signed and unsigned integers\Lesson 019 - signed and unsigned integers.vcxproj", "{8D5220AC-B771-4CED-BB0D-23874AEAED52}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -181,6 +185,22 @@ Global
 		{6828FFD2-B3A2-4AFB-B979-4247A37E1511}.Release|x64.Build.0 = Release|x64
 		{6828FFD2-B3A2-4AFB-B979-4247A37E1511}.Release|x86.ActiveCfg = Release|Win32
 		{6828FFD2-B3A2-4AFB-B979-4247A37E1511}.Release|x86.Build.0 = Release|Win32
+		{5EBEACBF-94FB-4DA6-9F4D-6A62F2D93A8A}.Debug|x64.ActiveCfg = Debug|x64
+		{5EBEACBF-94FB-4DA6-9F4D-6A62F2D93A8A}.Debug|x64.Build.0 = Debug|x64
+		{5EBEACBF-94FB-4DA6-9F4D-6A62F2D93A8A}.Debug|x86.ActiveCfg = Debug|Win32
+		{5EBEACBF-94FB-4DA6-9F4D-6A62F2D93A8A}.Debug|x86.Build.0 = Debug|Win32
+		{5EBEACBF-94FB-4DA6-9F4D-6A62F2D93A8A}.Release|x64.ActiveCfg = Release|x64
+		{5EBEACBF-94FB-4DA6-9F4D-6A62F2D93A8A}.Release|x64.Build.0 = Release|x64
+		{5EBEACBF-94FB-4DA6-9F4D-6A62F2D93A8A}.Release|x86.ActiveCfg = Release|Win32
+		{5EBEACBF-94FB-4DA6-9F4D-6A62F2D93A8A}.Release|x86.Build.0 = Release|Win32
+		{8D5220AC-B771-4CED-BB0D-23874AEAED52}.Debug|x64.ActiveCfg = Debug|x64
+		{8D5220AC-B771-4CED-BB0D-23874AEAED52}.Debug|x64.Build.0 = Debug|x64
+		{8D5220AC-B771-4CED-BB0D-23874AEAED52}.Debug|x86.ActiveCfg = Debug|Win32
+		{8D5220AC-B771-4CED-BB0D-23874AEAED52}.Debug|x86.Build.0 = Debug|Win32
+		{8D5220AC-B771-4CED-BB0D-23874AEAED52}.Release|x64.ActiveCfg = Release|x64
+		{8D5220AC-B771-4CED-BB0D-23874AEAED52}.Release|x64.Build.0 = Release|x64
+		{8D5220AC-B771-4CED-BB0D-23874AEAED52}.Release|x86.ActiveCfg = Release|Win32
+		{8D5220AC-B771-4CED-BB0D-23874AEAED52}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
