@@ -41,6 +41,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson 018 - union", "Lesso
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson 019 - signed and unsigned integers", "Lesson 019 - signed and unsigned integers\Lesson 019 - signed and unsigned integers.vcxproj", "{8D5220AC-B771-4CED-BB0D-23874AEAED52}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson 020 - casting data", "Lesson 020 - casting data\Lesson 020 - casting data.vcxproj", "{DF3CF072-78A6-4BC0-90EB-0F2067C278BE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -201,6 +203,14 @@ Global
 		{8D5220AC-B771-4CED-BB0D-23874AEAED52}.Release|x64.Build.0 = Release|x64
 		{8D5220AC-B771-4CED-BB0D-23874AEAED52}.Release|x86.ActiveCfg = Release|Win32
 		{8D5220AC-B771-4CED-BB0D-23874AEAED52}.Release|x86.Build.0 = Release|Win32
+		{DF3CF072-78A6-4BC0-90EB-0F2067C278BE}.Debug|x64.ActiveCfg = Debug|x64
+		{DF3CF072-78A6-4BC0-90EB-0F2067C278BE}.Debug|x64.Build.0 = Debug|x64
+		{DF3CF072-78A6-4BC0-90EB-0F2067C278BE}.Debug|x86.ActiveCfg = Debug|Win32
+		{DF3CF072-78A6-4BC0-90EB-0F2067C278BE}.Debug|x86.Build.0 = Debug|Win32
+		{DF3CF072-78A6-4BC0-90EB-0F2067C278BE}.Release|x64.ActiveCfg = Release|x64
+		{DF3CF072-78A6-4BC0-90EB-0F2067C278BE}.Release|x64.Build.0 = Release|x64
+		{DF3CF072-78A6-4BC0-90EB-0F2067C278BE}.Release|x86.ActiveCfg = Release|Win32
+		{DF3CF072-78A6-4BC0-90EB-0F2067C278BE}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
