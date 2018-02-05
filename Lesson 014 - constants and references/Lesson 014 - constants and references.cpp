@@ -63,5 +63,23 @@ int main()
     // Output the two constant references to the screen, so it can be seen they are the same.
     std::cout << "These refer to the same name: " << name_a << " and " << name_b << std::endl;
 
+    // There is also a big advantage to using constant reference variables, in that they
+    // give you data that is protected against accidental change, but also a reference
+    // is very much like a pointer, it just references the address.
+    // If a reference wasn't used then the contents of a variable would
+    // be copied instead of referenced.
+
+    // copy_of_name is taking a copy of the name, which means there is overhead,
+    // including allocating a new buffer to store the name, and then copy the name
+    // from the original name, as well as copying any other data like the length of the name.
+    // Sometimes you might want a copy because you want to modify it without changing the original,
+    // and sometimes you just want to pass a reference into a function for better performance.
+    std::string copy_of_name = names[0];
+    const std::string& reference_of_name = names[0];
+
+    // The copy and the reference will output the same value to screen,
+    // but they are in two different locations within memory.
+    std::cout << "copy_of_name is " << copy_of_name << " and reference_of_name is " << reference_of_name << std::endl;
+
     return 0;
 }
