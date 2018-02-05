@@ -79,7 +79,8 @@ int main()
 
     // The copy and the reference will output the same value to screen,
     // but they are in two different locations within memory.
-    std::cout << "copy_of_name is " << copy_of_name << " and reference_of_name is " << reference_of_name << std::endl;
+    std::cout << "copy_of_name is " << copy_of_name <<
+                 " and reference_of_name is " << reference_of_name << std::endl;
 
     return 0;
 }
