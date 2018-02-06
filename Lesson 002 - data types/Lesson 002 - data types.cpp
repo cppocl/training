@@ -26,6 +26,10 @@ int main()
     // Data types describe the properties of a variable, including the amount of memory used
     // and what type of information is stored, i.e. integer, floating point number, etc.
     //
+    // It's important to remember that when naming a variable, you should avoid starting a
+    // variable with the underscore character, as some combinations starting with underscore
+    // are reserved for the C++ language.
+    // so avoid things like this: int _my_count
 
     // Boolean values are built in and can have values true or false.
     bool state = false;
