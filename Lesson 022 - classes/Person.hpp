@@ -30,6 +30,8 @@ limitations under the License.
     This provides the ability to hide data or functions, by using the private keyword.
     The public parts of the class are available to users of the class, so GetFirstName
     could be used by other code outside of the Person class (as well as inside).
+    Brining data and functions in a class is also known as encapsulation,
+    and allows us to manage the state of the data safely, always keeping the data consistent.
 
     The Person class has been defined in a header file (the .hpp file), but the
     implementation for the functions is in the source file (.cpp).
