@@ -14,6 +14,14 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
+/*
+    C++ allows for files to be included, and the code within these files
+    is imported into the file that uses the #include.
+    (it's like the code was in the same file)
+    Although we won't be covering std::cout or std::endl for now, it's important
+    to know that this works because iostream is included, and the
+    code for std::cout and std::endl exists within this file.
+*/
 #include <iostream>
 
 /*
