@@ -45,6 +45,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson 020 - casting data",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson 021 - auto data", "Lesson 021 - auto data\Lesson 021 - auto data.vcxproj", "{5B345422-8D92-480D-B135-8C786A0FBC85}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson 022 - classes", "Lesson 022 - classes\Lesson 022 - classes.vcxproj", "{211B06C4-0D17-43F5-87F7-DAD511947550}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -221,6 +223,14 @@ Global
 		{5B345422-8D92-480D-B135-8C786A0FBC85}.Release|x64.Build.0 = Release|x64
 		{5B345422-8D92-480D-B135-8C786A0FBC85}.Release|x86.ActiveCfg = Release|Win32
 		{5B345422-8D92-480D-B135-8C786A0FBC85}.Release|x86.Build.0 = Release|Win32
+		{211B06C4-0D17-43F5-87F7-DAD511947550}.Debug|x64.ActiveCfg = Debug|x64
+		{211B06C4-0D17-43F5-87F7-DAD511947550}.Debug|x64.Build.0 = Debug|x64
+		{211B06C4-0D17-43F5-87F7-DAD511947550}.Debug|x86.ActiveCfg = Debug|Win32
+		{211B06C4-0D17-43F5-87F7-DAD511947550}.Debug|x86.Build.0 = Debug|Win32
+		{211B06C4-0D17-43F5-87F7-DAD511947550}.Release|x64.ActiveCfg = Release|x64
+		{211B06C4-0D17-43F5-87F7-DAD511947550}.Release|x64.Build.0 = Release|x64
+		{211B06C4-0D17-43F5-87F7-DAD511947550}.Release|x86.ActiveCfg = Release|Win32
+		{211B06C4-0D17-43F5-87F7-DAD511947550}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
