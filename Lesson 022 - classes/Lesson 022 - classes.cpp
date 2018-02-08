@@ -50,5 +50,10 @@ int main()
     std::cout << person.GetFirstName() << " " << person.GetLastName();
     std::cout << " was born on " << out_day << "/" << out_month << "/" << year << std::endl;
 
+    // When calling functions on a class object pointer, use the pointer member access operator ->
+    Person* person_ptr = &person;
+    std::cout << person_ptr->GetFirstName() << " " << person_ptr->GetLastName();
+    std::cout << " was born on " << out_day << "/" << out_month << "/" << year << std::endl;
+
     return 0;
 }
