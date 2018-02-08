@@ -64,9 +64,6 @@ Person::~Person()
 
 std::string const& Person::GetFirstName() const
 {
-    // Notice that variables defined within the class can be seen inside the
-    // implementation of the member functions.
-
     return m_first_name;
 }
 
@@ -87,12 +84,6 @@ void Person::SetLastName(const std::string& last_name)
 
 void Person::GetDateOfBirth(std::uint8_t& day, std::uint8_t& month, std::uint16_t& year) const
 {
-    // Notice that we return all these values together as references, to ensure the elements
-    // that create the date of birth remain together and consistent.
-    // Bugs can often occur when trying to either inspect or set related variables,
-    // and restricting how the date of birth is inspected or changed can help to limit these
-    // types of problems.
-
     day = m_day;
     month = m_month;
     year = m_year;
@@ -100,8 +91,6 @@ void Person::GetDateOfBirth(std::uint8_t& day, std::uint8_t& month, std::uint16_
 
 void Person::SetDateOfBirth(std::uint8_t day, std::uint8_t month, std::uint16_t year)
 {
-    // Providing a single way to set the date of birth will ensure the values remain
-    // consistently updated together.
     m_day = day;
     m_month = month;
     m_year = year;
