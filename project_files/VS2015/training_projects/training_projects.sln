@@ -55,6 +55,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson 025 - class overload
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson 026 - class inheritance", "Lesson 026 - class inheritance\Lesson 026 - class inheritance.vcxproj", "{47A3FC38-4311-44ED-81FB-218C80300B30}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson 027 - polymorphism", "Lesson 027 - polymorphism\Lesson 027 - polymorphism.vcxproj", "{04038EFB-85AA-4B0B-BEA5-09B3541E03CA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -271,6 +273,14 @@ Global
 		{47A3FC38-4311-44ED-81FB-218C80300B30}.Release|x64.Build.0 = Release|x64
 		{47A3FC38-4311-44ED-81FB-218C80300B30}.Release|x86.ActiveCfg = Release|Win32
 		{47A3FC38-4311-44ED-81FB-218C80300B30}.Release|x86.Build.0 = Release|Win32
+		{04038EFB-85AA-4B0B-BEA5-09B3541E03CA}.Debug|x64.ActiveCfg = Debug|x64
+		{04038EFB-85AA-4B0B-BEA5-09B3541E03CA}.Debug|x64.Build.0 = Debug|x64
+		{04038EFB-85AA-4B0B-BEA5-09B3541E03CA}.Debug|x86.ActiveCfg = Debug|Win32
+		{04038EFB-85AA-4B0B-BEA5-09B3541E03CA}.Debug|x86.Build.0 = Debug|Win32
+		{04038EFB-85AA-4B0B-BEA5-09B3541E03CA}.Release|x64.ActiveCfg = Release|x64
+		{04038EFB-85AA-4B0B-BEA5-09B3541E03CA}.Release|x64.Build.0 = Release|x64
+		{04038EFB-85AA-4B0B-BEA5-09B3541E03CA}.Release|x86.ActiveCfg = Release|Win32
+		{04038EFB-85AA-4B0B-BEA5-09B3541E03CA}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
