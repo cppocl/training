@@ -53,6 +53,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson 024 - static member 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson 025 - class overloaded operators", "Lesson 025 - class overloaded operators\Lesson 025 - class overloaded operators.vcxproj", "{F0407FF6-2728-4383-9D99-51E481A545B6}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson 026 - class inheritance", "Lesson 026 - class inheritance\Lesson 026 - class inheritance.vcxproj", "{47A3FC38-4311-44ED-81FB-218C80300B30}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -261,6 +263,14 @@ Global
 		{F0407FF6-2728-4383-9D99-51E481A545B6}.Release|x64.Build.0 = Release|x64
 		{F0407FF6-2728-4383-9D99-51E481A545B6}.Release|x86.ActiveCfg = Release|Win32
 		{F0407FF6-2728-4383-9D99-51E481A545B6}.Release|x86.Build.0 = Release|Win32
+		{47A3FC38-4311-44ED-81FB-218C80300B30}.Debug|x64.ActiveCfg = Debug|x64
+		{47A3FC38-4311-44ED-81FB-218C80300B30}.Debug|x64.Build.0 = Debug|x64
+		{47A3FC38-4311-44ED-81FB-218C80300B30}.Debug|x86.ActiveCfg = Debug|Win32
+		{47A3FC38-4311-44ED-81FB-218C80300B30}.Debug|x86.Build.0 = Debug|Win32
+		{47A3FC38-4311-44ED-81FB-218C80300B30}.Release|x64.ActiveCfg = Release|x64
+		{47A3FC38-4311-44ED-81FB-218C80300B30}.Release|x64.Build.0 = Release|x64
+		{47A3FC38-4311-44ED-81FB-218C80300B30}.Release|x86.ActiveCfg = Release|Win32
+		{47A3FC38-4311-44ED-81FB-218C80300B30}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
