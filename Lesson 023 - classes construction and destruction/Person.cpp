@@ -55,6 +55,18 @@ Person::Person(std::string const& first_name,
     std::cout << "<overloaded constructor called>" << std::endl;
 }
 
+Person::Person(const Person& other)
+    : m_first_name(other.m_first_name)
+    , m_last_name(other.m_last_name)
+    , m_day(other.m_day)
+    , m_month(other.m_month)
+    , m_year(other.m_year)
+{
+    // The data from the other object is copied while constructing the data
+    // for this class.
+    std::cout << "<copy constructor called>" << std::endl;
+}
+
 Person::~Person()
 {
     // So we can see when a Person object is destroyed, we can output something to screen.

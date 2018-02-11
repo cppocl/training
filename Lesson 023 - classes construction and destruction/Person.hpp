@@ -55,6 +55,10 @@ public:
            std::uint8_t month,
            std::uint16_t year);
 
+    /// This is known as a copy constructor, because it allows the data within
+    /// a class to be copied at construction time from another object.
+    Person(const Person& other);
+
     /// When a class object is going out of memory, the destructor is first called
     /// to perform any clean-up that might be required.
     /// You don't need to specify a destructor for a class,
