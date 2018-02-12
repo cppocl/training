@@ -42,11 +42,16 @@ class Person
 public:
     Person();
 
+    /// Constructor that can load a file to set the name and date.
+    Person(const std::string& filename);
+
     Person(std::string const& first_name,
            std::string const& last_name,
            std::uint8_t day,
            std::uint8_t month,
            std::uint16_t year);
+
+    ~Person();
 
     std::string const& GetFirstName() const noexcept;
 

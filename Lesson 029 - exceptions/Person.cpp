@@ -29,6 +29,19 @@ Person::Person()
 {
 }
 
+Person::Person(const std::string& filename)
+    : m_day(0)
+    , m_month(0)
+    , m_year(0)
+{
+    // Note that throwing from a constructor means the destructor won't be called.
+    // You should be careful to avoid using raw pointers (e.g. char*) in classes
+    // that can throw exceptions from a constructor.
+    // It is possible to use a smart pointer instead of a raw pointer, which will
+    // be covered in later lessons.
+    LoadFromFile(filename);
+}
+
 Person::Person(std::string const& first_name,
                std::string const& last_name,
                std::uint8_t day,
@@ -40,6 +53,14 @@ Person::Person(std::string const& first_name,
     , m_month(month)
     , m_year(year)
 {
+}
+
+Person::~Person()
+{
+    /*
+        You should never throw from a destructor, or call functions that can throw,
+        unless you catch all exceptions in the destructor and handle them.
+    */
 }
 
 std::string const& Person::GetFirstName() const noexcept

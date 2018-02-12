@@ -30,6 +30,12 @@ int main()
     try
     {
         // The file won't exist, so an exception will be thrown.
+        ocl::Person person2("C:\\person.bin");
+
+        // Because loading the file will fail and throw an exception, we won't see anything here.
+        std::cout << person2.GetFirstName() << " " << person2.GetLastName() << std::endl;
+
+        // If the line above did not exist, this would also throw an exception.
         person.LoadFromFile("C:\\person.bin");
 
         // Because loading the file will fail and throw an exception, we won't see anything here.
