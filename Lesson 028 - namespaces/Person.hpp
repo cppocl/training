@@ -19,8 +19,8 @@ limitations under the License.
 // The #ifndef will only be true the first time the header file is included,
 // and any other includes of this header file would be ignored when included
 // in the same file, because #define will only be called once.
-#ifndef OCL_GUARD_TRAINING_LESSON_022_CLASSES_PERSON_HPP
-#define OCL_GUARD_TRAINING_LESSON_022_CLASSES_PERSON_HPP
+#ifndef OCL_GUARD_TRAINING_LESSON_028_NAMESPACES_PERSON_HPP
+#define OCL_GUARD_TRAINING_LESSON_028_NAMESPACES_PERSON_HPP
 
 #include <string>
 #include <cstddef>
@@ -92,4 +92,4 @@ private:
 
 } // namespace ocl
 
-#endif // OCL_GUARD_TRAINING_LESSON_022_CLASSES_PERSON_HPP
+#endif // OCL_GUARD_TRAINING_LESSON_028_NAMESPACES_PERSON_HPP
