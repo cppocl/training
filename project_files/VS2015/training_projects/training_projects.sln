@@ -59,6 +59,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson 027 - polymorphism",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson 028 - namespaces", "Lesson 028 - namespaces\Lesson 028 - namespaces.vcxproj", "{E8DD46CE-E691-4E07-9647-78930CDF1B5B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson 029 - exceptions", "Lesson 029 - exceptions\Lesson 029 - exceptions.vcxproj", "{07F7548C-EB93-4DE9-B89B-0531376FE8D8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -291,6 +293,14 @@ Global
 		{E8DD46CE-E691-4E07-9647-78930CDF1B5B}.Release|x64.Build.0 = Release|x64
 		{E8DD46CE-E691-4E07-9647-78930CDF1B5B}.Release|x86.ActiveCfg = Release|Win32
 		{E8DD46CE-E691-4E07-9647-78930CDF1B5B}.Release|x86.Build.0 = Release|Win32
+		{07F7548C-EB93-4DE9-B89B-0531376FE8D8}.Debug|x64.ActiveCfg = Debug|x64
+		{07F7548C-EB93-4DE9-B89B-0531376FE8D8}.Debug|x64.Build.0 = Debug|x64
+		{07F7548C-EB93-4DE9-B89B-0531376FE8D8}.Debug|x86.ActiveCfg = Debug|Win32
+		{07F7548C-EB93-4DE9-B89B-0531376FE8D8}.Debug|x86.Build.0 = Debug|Win32
+		{07F7548C-EB93-4DE9-B89B-0531376FE8D8}.Release|x64.ActiveCfg = Release|x64
+		{07F7548C-EB93-4DE9-B89B-0531376FE8D8}.Release|x64.Build.0 = Release|x64
+		{07F7548C-EB93-4DE9-B89B-0531376FE8D8}.Release|x86.ActiveCfg = Release|Win32
+		{07F7548C-EB93-4DE9-B89B-0531376FE8D8}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
