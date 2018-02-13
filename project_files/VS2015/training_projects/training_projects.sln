@@ -63,7 +63,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson 029 - exceptions", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson 030 - lvalue and rvalue", "Lesson 030 - lvalue and rvalue\Lesson 030 - lvalue and rvalue.vcxproj", "{FCA19E3F-E2F2-48C2-B170-1470217CC50E}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson 031 - class templates", "Lesson 031 - class templates\Lesson 031 - class templates.vcxproj", "{103C1692-CBE1-42AD-A4B9-540757259764}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson 031 - function and class templates", "Lesson 031 - function and class templates\Lesson 031 - function and class templates.vcxproj", "{F853A5F0-813A-4548-BFB9-6A2EEB2E439F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -313,14 +313,14 @@ Global
 		{FCA19E3F-E2F2-48C2-B170-1470217CC50E}.Release|x64.Build.0 = Release|x64
 		{FCA19E3F-E2F2-48C2-B170-1470217CC50E}.Release|x86.ActiveCfg = Release|Win32
 		{FCA19E3F-E2F2-48C2-B170-1470217CC50E}.Release|x86.Build.0 = Release|Win32
-		{103C1692-CBE1-42AD-A4B9-540757259764}.Debug|x64.ActiveCfg = Debug|x64
-		{103C1692-CBE1-42AD-A4B9-540757259764}.Debug|x64.Build.0 = Debug|x64
-		{103C1692-CBE1-42AD-A4B9-540757259764}.Debug|x86.ActiveCfg = Debug|Win32
-		{103C1692-CBE1-42AD-A4B9-540757259764}.Debug|x86.Build.0 = Debug|Win32
-		{103C1692-CBE1-42AD-A4B9-540757259764}.Release|x64.ActiveCfg = Release|x64
-		{103C1692-CBE1-42AD-A4B9-540757259764}.Release|x64.Build.0 = Release|x64
-		{103C1692-CBE1-42AD-A4B9-540757259764}.Release|x86.ActiveCfg = Release|Win32
-		{103C1692-CBE1-42AD-A4B9-540757259764}.Release|x86.Build.0 = Release|Win32
+		{F853A5F0-813A-4548-BFB9-6A2EEB2E439F}.Debug|x64.ActiveCfg = Debug|x64
+		{F853A5F0-813A-4548-BFB9-6A2EEB2E439F}.Debug|x64.Build.0 = Debug|x64
+		{F853A5F0-813A-4548-BFB9-6A2EEB2E439F}.Debug|x86.ActiveCfg = Debug|Win32
+		{F853A5F0-813A-4548-BFB9-6A2EEB2E439F}.Debug|x86.Build.0 = Debug|Win32
+		{F853A5F0-813A-4548-BFB9-6A2EEB2E439F}.Release|x64.ActiveCfg = Release|x64
+		{F853A5F0-813A-4548-BFB9-6A2EEB2E439F}.Release|x64.Build.0 = Release|x64
+		{F853A5F0-813A-4548-BFB9-6A2EEB2E439F}.Release|x86.ActiveCfg = Release|Win32
+		{F853A5F0-813A-4548-BFB9-6A2EEB2E439F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

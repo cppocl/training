@@ -15,6 +15,7 @@ limitations under the License.
 */
 
 #include "Array.hpp"
+#include "GetMax.hpp"
 #include <iostream>
 
 int main()

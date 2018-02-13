@@ -14,8 +14,8 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-#ifndef OCL_GUARD_TRAINING_LESSON_031_CLASS_TEMPLATES_ARRAY_HPP
-#define OCL_GUARD_TRAINING_LESSON_031_CLASS_TEMPLATES_ARRAY_HPP
+#ifndef OCL_GUARD_TRAINING_LESSON_031_FUNCTION_AND_CLASS_TEMPLATES_ARRAY_HPP
+#define OCL_GUARD_TRAINING_LESSON_031_FUNCTION_AND_CLASS_TEMPLATES_ARRAY_HPP
 
 #include <cstddef>
 #include <stdexcept>
@@ -116,16 +116,4 @@ private:
     std::size_t m_size;
 };
 
-/*
-    It's also possible to create functions that take user specified types.
-    Unlike a template class where the type needs to be specified,
-    the compiler can work out the type for a template function,
-    so there is not need to specify the type when using the GetMax function.
-*/
-template<typename T>
-T GetMax(T value1, T value2)
-{
-    return value1 > value2 ? value1 : value2;
-}
-
-#endif // OCL_GUARD_TRAINING_LESSON_031_CLASS_TEMPLATES_ARRAY_HPP
+#endif // OCL_GUARD_TRAINING_LESSON_031_FUNCTION_AND_CLASS_TEMPLATES_ARRAY_HPP
