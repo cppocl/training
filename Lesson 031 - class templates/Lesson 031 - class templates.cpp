@@ -70,5 +70,9 @@ int main()
     // Verify the first element was not changed and the second element was set to 2.
     std::cout << ((my_ints[0] == 1) ? "my_ints[0] is 1" : "ERROR with my_ints") << std::endl;
     std::cout << ((my_ints[1] == 2) ? "my_ints[1] is 2" : "ERROR with my_ints") << std::endl;
+
+    // Example of using a template function.
+    std::cout << "my_ints max value is " << GetMax(my_ints[0], my_ints[1]) << std::endl;
+
     return 0;
 }
