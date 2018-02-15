@@ -19,14 +19,23 @@ limitations under the License.
 
 /*
     It's also possible to create functions that take user specified types.
-    Unlike a template class where the type needs to be specified,
-    the compiler can work out the type for a template function,
+    The compiler can work out the types for a template function,
     so there is not need to specify the type when using the GetMax function.
 */
 template<typename T>
 T GetMax(T value1, T value2)
 {
     return value1 > value2 ? value1 : value2;
+}
+
+/*
+    When a function template only returns a value, the type will need to
+    be specified to use the function.
+*/
+template<typename T>
+T PI()
+{
+    return static_cast<T>(3.14);
 }
 
 #endif // OCL_GUARD_TRAINING_LESSON_031_FUNCTION_AND_CLASS_TEMPLATES_GETMAX_HPP
