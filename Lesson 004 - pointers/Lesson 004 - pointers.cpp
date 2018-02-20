@@ -28,55 +28,40 @@ struct MyStruct
 int main()
 {
     /*
-        The in variable i requires 32 bits of memory on a Windows platform.
-        The program will reserved so memory, which could be anywhere in the
-        available memory.
-
-        If we assume you have a PC with 2GB of memory,
-        and the next available location is at 1GB, then the image file
-        located in the same folder as this source code file can help visualise
-        how the memory is stored.
-        Each block represents a single byte in memory in the image file.
-
-        Because the int is a 32-bit value, you can see how the value 55 would
-        be stored in the memory looking at the image file "variable in memory example.png".
+        Variables are stored in memory, and have use a certain amount of space.
+        The long variable num will be at least 32-bits, but could be larger on some systems.
     */
-    int i = 55;
+    long num = 55;
 
     /*
-        Set the pointer variable ptr_i to have the same memory address as the variable i.
-        int* is defining a data type of a pointer to an int.
-        The & operator gets the address of the variable stored in memory.
-        If the memory can address 64 bits of address space, then the pointer will
-        be 64 bits in size.
-        The following line defines a pointer to an int variable called ptr_i and assigns
-        the pointer the same value as the address of the i variable.
+        A pointer variable is similar to an integer variable, in that is stores a numeric value,
+        but the value will always be the size required to store an address of a variable.
+        The use of the asterisk (*) after long defines a pointer variable, but it also says the data
+        stored at the memory location is a value of type long.
+        Pointer variables store the address, but they can also access the value at the memory location.
+        To set a pointer variable to the address of another variable, you can see the ampersand (&) is
+        used to set ptr_num to the memory location of num.
     */
-    int* ptr_i = &i;
+    long* ptr_num = &num;
 
     /*
-        To gain access to the value stored within the variable i via the ptr_i pointer variable,
-        the pointer needs to be dereferenced.
-        What this means is that the value at the memory location where i exists, stores the value 55.
-        The pointer stores a value which is the address of the i variable, but it can also look at
-        the location of memory and get the values stored at the address, which is 55.
-
-        If we assume that the variable i is stored at memory address 4, then ptr_i would equal 4.
-        To get to the value 55 stored in the variable i via the ptr_i pointer, we can dereference
-        the ptr_i pointer variable, and then get the value stored at the address.
-        so ptr_i == 4, and *ptr_i == 55 in the example described.
-        The pointer could actually be any memory address that the current program or process can access.
+        Now that ptr_num knows the address of the variable num, it can also gain access to the value
+        stored in num.
+        To gain access, we can use the pointer variable and get the value at the memory location by
+        using the asterisk (*) on the pointer variable.
+        This is also known as dereferencing the pointer.
+        (i.e look at value at memory location for variable type)
     */
-    int value_of_i_via_pi = *ptr_i;
+    long value_of_num_via_ptr_num = *ptr_num;
 
     // Output the memory address of i and ptr_i, which will show the same value.
-    std::cout << "address of i = " << &i << std::endl;
-    std::cout << "pointer ptr_i = " << ptr_i << std::endl;
+    std::cout << "address of num = " << &num << std::endl;
+    std::cout << "pointer ptr_num = " << ptr_num << std::endl;
 
     // Output value of i and the dereferenced pointer ptr_i, which will show the same value.
-    std::cout << "value of i=" << i << std::endl;
-    std::cout << "dereferenced value of ptr_i = " << *ptr_i << std::endl;
-    std::cout << "value of value_of_i_via_pi = " << value_of_i_via_pi << std::endl;
+    std::cout << "value of num=" << num << std::endl;
+    std::cout << "dereferenced value of ptr_num = " << *ptr_num << std::endl;
+    std::cout << "value of value_of_num_via_ptr_num = " << value_of_num_via_ptr_num << std::endl;
 
     /*
         When a pointer is not pointing to a valid memory address,
@@ -85,11 +70,11 @@ int main()
         and will cause your software to fail.
         It's simple just to compare a pointer variable to null before using the pointer variable.
     */
-    ptr_i = nullptr;
-    if (ptr_i != nullptr)
-        std::cout << "dereferenced value of ptr_i = " << *ptr_i << std::endl;
+    ptr_num = nullptr;
+    if (ptr_num != nullptr)
+        std::cout << "dereferenced value of ptr_num = " << *ptr_num << std::endl;
     else
-        std::cout << "ptr_i is null" << std::endl;
+        std::cout << "ptr_num is null" << std::endl;
 
     /*
         The memory address for the struct variable will same as the
