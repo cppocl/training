@@ -30,14 +30,20 @@ int main()
     int i = 55;
 
     /*
-        Set the reference variable ref_i to have the same memory address as the variable i.
-        int& is defining a data type of a reference to an int.
-        The reference is similar to the previous pointer example,
-        except it must always reference another variable of a compatible type.
-        References are used like any other non-pointer variable type,
-        they don't need to be dereferences as this is automatic.
-        The following line defines a reference to an int variable called ref_i and assigns
-        the pointer the same value as the address of the i variable.
+        References are similar to pointers, in that they refer to the
+        memory location of another variable, but unlike a pointer
+        they must always reference a valid memory location, so they cannot
+        be null.
+
+        When the reference is defined, it must also be assigned to the other
+        variable at the same time, as can be seen by the line of code below.
+
+        There is no need to manually dereference a reference variable, as this
+        is automatic, so the asterisk (*) has no meaning here.
+
+        By using the ampersand (&) on a reference variable, you will get the
+        address of the variable being referenced after it has been defined,
+        as can be seen in the second std::cout line of code.
     */
     int& ref_i = i;
 
