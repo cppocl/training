@@ -38,7 +38,7 @@ int main()
     /*
         This simplest form of conditional checking is the use of if and else.
         It is possible to just use the if statement, or combine if with one of more
-        if else statements and and single else statement at the end.
+        if else statements and single else statement at the end.
 
         It is possible to compare if a value is less than another by using <,
         less than or equal too by using <=, greater than a value with >,
