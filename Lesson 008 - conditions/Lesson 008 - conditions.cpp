@@ -27,7 +27,7 @@ int main()
         All we need to appreciate is std::cin reads the key presses
         and stores the answer in the variable.
 
-        sd::cout reads whatever string we have in the quotes and outputs it to the screen.
+        std::cout reads whatever string we have in the quotes and outputs it to the screen.
     */
 
     // Read the age from the user input.
