@@ -56,7 +56,13 @@ int main()
     else
         std::cout << "Value not found!" << std::endl;
 
-    // We can also insert a value before the iterator position (which will before 8).
+    // We can insert a value before the iterator position (which will before 8).
+    //
+    // NOTE: It's important to be aware that whenever an insert, push_back, etc. happens,
+    // the vector will re-allocate a new sequence of values, copy the existing values across,
+    // free the original copy, then insert, append, etc. after the copy.
+    // The vector is very good at being created at a fixed size, indexing, but is
+    // slow at having elements added or removed, and sequential searching can be slow.
     ints.insert(pos, 1);
 
     // Values can be added to the end of the vector.
