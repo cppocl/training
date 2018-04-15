@@ -26,6 +26,8 @@ int main()
 
         The first type is defined for the key, and the second type is defined for the value
         associated to the key.
+        The key must be unique within the map, so there will only ever be one key/value pair
+        for each unique key.
 
         This lookup will generally perform considerably faster than sequentially searching
         a vector or list, unless the map has only a few items.
