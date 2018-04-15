@@ -21,7 +21,7 @@ int main()
 {
     /*
         The standard library provides a class that contains values of a specified data type.
-        The container covered in this lesson, known as a list is similar to the array lesson
+        The container covered in this lesson, known as a list is similar to the vector lesson
         earlier, but the list can change size dynamically.
         Because the list is a class, it provides functions to manipulate the data contained.
 
